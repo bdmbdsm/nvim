@@ -4,4 +4,4 @@ require("bdmbdsm.packer")
 require("bdmbdsm.treesitter")
 
 vim.o.background = "light"
-vim.cmd([[colorscheme gruvbox]])
+vim.cmd([[colorscheme flexoki-light]])
