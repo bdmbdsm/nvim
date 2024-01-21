@@ -29,6 +29,8 @@ return require('packer').startup(function(use)
 
     use { 'nvim-lualine/lualine.nvim' }
 
+    use { 'NMAC427/guess-indent.nvim' }
+
     use {
       'VonHeikemen/lsp-zero.nvim',
       branch = 'v3.x',
