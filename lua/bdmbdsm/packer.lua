@@ -9,7 +9,7 @@ return require('packer').startup(function(use)
         ts_update()
     end,}
 
-    use { 'ellisonleao/gruvbox.nvim' }
+    use { 'kepano/flexoki-neovim', as = 'flexoki' }
 
     use { 'tpope/vim-fugitive' }
 
@@ -19,6 +19,16 @@ return require('packer').startup(function(use)
     }
 
     use { 'mcchrish/nnn.vim' }
+
+    use {
+        'romgrk/barbar.nvim',
+        requires = {
+            {'nvim-tree/nvim-web-devicons'}
+        }
+    }
+
+    use { 'nvim-lualine/lualine.nvim' }
+
     use {
       'VonHeikemen/lsp-zero.nvim',
       branch = 'v3.x',
