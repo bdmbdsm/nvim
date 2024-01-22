@@ -18,18 +18,15 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
-    use { 'mcchrish/nnn.vim' }
-
-    use {
-        'romgrk/barbar.nvim',
-        requires = {
-            {'nvim-tree/nvim-web-devicons'}
-        }
-    }
+    use {'nvim-tree/nvim-web-devicons'}
 
     use { 'nvim-lualine/lualine.nvim' }
 
     use { 'NMAC427/guess-indent.nvim' }
+
+    use { 'Vimjas/vim-python-pep8-indent' }
+
+    use { 'nvim-tree/nvim-tree.lua' }
 
     use {
       'VonHeikemen/lsp-zero.nvim',
