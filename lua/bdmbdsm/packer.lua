@@ -10,6 +10,7 @@ return require('packer').startup(function(use)
     end,}
 
     use { 'kepano/flexoki-neovim', as = 'flexoki' }
+    use { "ellisonleao/gruvbox.nvim" }
 
     use { 'tpope/vim-fugitive' }
 
