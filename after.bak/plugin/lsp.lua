@@ -12,10 +12,5 @@ require('mason-lspconfig').setup({
   ensure_installed = {},
   handlers = {
     lsp_zero.default_setup,
-  },
-  pyright = function()
-    require('lspconfig').pyright.setup({
-      reportIncompatibleMethodOverride = "none"
-    })
-  end
+  }
 })

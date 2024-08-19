@@ -1,7 +1,6 @@
-require("bdmbdsm.set")
-require("bdmbdsm.remap")
-require("bdmbdsm.packer")
+require("bdmbdsm.theme_setup")
+require("bdmbdsm.editor_setup")
+require("bdmbdsm.nvim_tree")
 require("bdmbdsm.treesitter")
-
-vim.o.background = "light"
-vim.cmd([[colorscheme gruvbox]])
+require("bdmbdsm.remap")
+require("bdmbdsm.statusline")
